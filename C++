@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int a, b, c, d, e;
+	double r,x, y, z;
+
+	printf("inser number\n"); scanf("%lf%lf", &r,&x);
+
+	if (r > 30)
+		if (r % 2 == 1)
+			printf("this is odd number more than 30");
+		else
+			printf("this is even number");
+	else
+		printf("\nneed to be atleast 30\n");
+
+
+
+	return 0;
+}
